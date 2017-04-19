@@ -2,19 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://example.org/post/how-to-write-go-code-cn-part-1/</loc>
+    <lastmod>2017-04-19T11:49:05+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://example.org/post/hello/</loc>
     <lastmod>2017-03-28T14:13:20+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://example.org/</loc>
-    <lastmod>2017-03-28T14:13:20+08:00</lastmod>
+    <lastmod>2017-04-19T11:49:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://example.org/post/</loc>
-    <lastmod>2017-03-28T14:13:20+08:00</lastmod>
+    <lastmod>2017-04-19T11:49:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   

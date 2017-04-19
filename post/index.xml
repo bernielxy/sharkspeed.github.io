@@ -6,8 +6,24 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Mar 2017 14:13:20 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 19 Apr 2017 11:49:05 +0800</lastBuildDate>
     <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>如何编写 Go - Part1</title>
+      <link>http://example.org/post/how-to-write-go-code-cn-part-1/</link>
+      <pubDate>Wed, 19 Apr 2017 11:49:05 +0800</pubDate>
+      
+      <guid>http://example.org/post/how-to-write-go-code-cn-part-1/</guid>
+      <description>简介 本文档描述了如何开发一个简单的 Go 包，并介绍了获取，构建和安装 Go 包和命令的标准方法 go tool。
+go tool 要求你以一种特殊的方式组织代码。请详细阅读本文档。它介绍了设置和运行 Go 的最简单方法。
+代码组织 概览  Go 程序员通常将全部的 Go 代码放在单独的工作空间。 一个工作空间包含了很多版本控制仓库 (例如由 Git 管理)。 每个仓库包含一个或多个包。 每个包由单独目录下一个或多个 Go 源代码组成。 包文件夹路径决定了包的 import path 。  注意，Go 的代码组织与其他编程语言不同在每个项目由自己独立的工作空间， 而且工作空间与版本控制仓库紧密联系。
+工作空间 工作空间是一个由三个子目录组成的文件夹
+ src 包含 Go 源代码文件 pkg 包含 Go 包 bin 包含可执行命令  go tool 编译源码包并将生成的二进制文件安装到 pkg 和 bin 文件夹。
+src 子目录通常包含多个版本控制仓库(如 Git 或 Mercurial )，跟踪一个或多个包的开发。
+下边的例子让你看下实际的工作空间样子：
+bin/ hello # command executable outyet # command executable pkg/ linux_amd64/ github.</description>
+    </item>
     
     <item>
       <title>hello</title>
