@@ -6,8 +6,21 @@
     <description>Recent content in Posts on Call me Bear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Apr 2017 11:49:05 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 23 Apr 2017 00:09:39 +0800</lastBuildDate>
     <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>如何编写 Go - Part2 完结篇</title>
+      <link>https://sharkspeed.github.io/post/how-to-write-go-code-cn-part-2-end/</link>
+      <pubDate>Sun, 23 Apr 2017 00:09:39 +0800</pubDate>
+      
+      <guid>https://sharkspeed.github.io/post/how-to-write-go-code-cn-part-2-end/</guid>
+      <description>第一个库  我们将会写一个库并在 hello 程序中使用它。
+第一步是选择一个包路径 (我们会使用 github.com/user/stringutil )并创建库文件夹:
+$ mkdir $GOPATH/src/github.com/user/stringutil  下一步，在目录下创建叫做 reverse.go 的文件，并输入以下内容
+// Package returns its argument string reversed rune-wise left to right package stringutil // Reverse 按字符将参数 string 翻转 func Reverse(s string) string { r := []rune(s) for i, j := 0, len(r)-1; i &amp;lt; len(r)/2; i,j=i+1,j-1 { r[i], r[j] = r[j], r[i] } return string(r) }  现在，用 go build 来编译测试这个包:
+$ go build github.</description>
+    </item>
     
     <item>
       <title>如何编写 Go - Part1</title>
